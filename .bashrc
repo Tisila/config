@@ -115,9 +115,6 @@ if ! shopt -oq posix; then
 		. /etc/bash_completion
 	fi
 fi
-source /opt/ros/melodic/setup.bash
-
-
 
 #########################################Trevor here
 #######################vim keybindings
@@ -136,10 +133,11 @@ setxkbmap -option caps:escape
 #}
 #PROMPT_COMMAND=set_bash_prompt
 #######################ROS2020
-alias ck='catkin_make -C ~/catkin_ws -j 8'
-source /opt/ros/melodic/setup.bash
-source ~/catkin_ws/devel/setup.bash
-export ROS_PACKAGE_PATH=~/catkin_ws:${ROS_PACKAGE_PATH}
+#alias ck='catkin_make -C ~/catkin_ws -j 8'
+#source /opt/ros/melodic/setup.bash
+#source ~/catkin_ws/devel/setup.bash
+#export ROS_PACKAGE_PATH=~/catkin_ws:${ROS_PACKAGE_PATH}
+#source /opt/ros/melodic/setup.bash
 #######################tmux by default
 if command -v tmux>/dev/null; then
  [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && tmux
