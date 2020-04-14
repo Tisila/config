@@ -115,8 +115,11 @@ if ! shopt -oq posix; then
 		. /etc/bash_completion
 	fi
 fi
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 5c045ad5b80f5debfd0ab75ffe73e5720b39fa8f
 
 #########################################Trevor here
 #######################vim keybindings
