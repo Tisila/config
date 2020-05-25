@@ -1,5 +1,5 @@
 set tabstop=4
-#Mastering Vim Quickly
+"Mastering Vim Quickly
 set nocompatible
 set backspace=indent,eol,start
 set history=1000
@@ -11,14 +11,14 @@ set laststatus=2
 set ruler
 set wildmenu
 set tabpagemax=40
-#colorscheme desert
+"colorscheme desert
 set cursorline
 set number
 set relativenumber
 set noerrorbells
 set visualbell
-set mouse=a
-#set background=dark
+"set mouse=a
+"set background=dark
 set title
 set noswapfile
 set nobackup
@@ -36,7 +36,7 @@ set encoding=utf-8
 set linebreak
 set scrolloff=3
 set sidescrolloff=5
-syntax enable
+"syntax enable
 set confirm
 set nomodeline
 set nrformats-=octal

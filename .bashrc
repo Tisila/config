@@ -137,7 +137,6 @@ setxkbmap -option caps:escape
 #source /opt/ros/melodic/setup.bash
 #source ~/catkin_ws/devel/setup.bash
 #export ROS_PACKAGE_PATH=~/catkin_ws:${ROS_PACKAGE_PATH}
-#source /opt/ros/melodic/setup.bash
 #######################tmux by default
 if command -v tmux>/dev/null; then
  [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && tmux
