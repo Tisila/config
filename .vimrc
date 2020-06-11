@@ -40,6 +40,6 @@ set sidescrolloff=5
 set confirm
 set nomodeline
 set nrformats-=octal
-set shell
+"set shell
 set spell
-set spelllang=en,pt
+"set spelllang=en,pt
