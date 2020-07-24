@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo wg-quick up wg0
+sudo wg-quick up $1
