@@ -41,5 +41,5 @@ set confirm
 set nomodeline
 set nrformats-=octal
 "set shell
-set spell
+"set spell
 "set spelllang=en,pt
