@@ -142,8 +142,8 @@ if command -v tmux>/dev/null; then
  [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && tmux
 fi
 #######################PythonVirtualEnvWrapper
-export WORKON_HOME=$HOME/.virtualenvs   # Optional
-export PROJECT_HOME=$HOME/projects      # Optional
-source /usr/local/bin/virtualenvwrapper.sh
+#export WORKON_HOME=$HOME/.virtualenvs   # Optional
+#export PROJECT_HOME=$HOME/projects      # Optional
+#source /usr/local/bin/virtualenvwrapper.sh
 ##########################################Trevor out!
 
